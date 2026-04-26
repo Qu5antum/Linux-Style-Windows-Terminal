@@ -1,0 +1,87 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "closeTab"
+            },
+            "id": "User.closeTab.0"
+        }
+    ],
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.OpenNewTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "id": "User.closeTab.0",
+            "keys": "ctrl+w"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "antialiasingMode": "cleartype",
+            "cursorColor": "#00FF9C",
+            "cursorShape": "underscore",
+            "font": 
+            {
+                "size": 12
+            },
+            "opacity": 92,
+            "padding": "6",
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "ArchHacker",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "arch",
+                "startingDirectory": "%USERPROFILE%",
+                "initialCols": 60,
+                "initialRows": 30
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0A0F14",
+            "black": "#0A0F14",
+            "blue": "#5FD7FF",
+            "brightBlack": "#4A4A4A",
+            "brightBlue": "#7FDBFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#D6ACFF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#00FF9C",
+            "cyan": "#8BE9FD",
+            "foreground": "#00FF9C",
+            "green": "#00FF9C",
+            "name": "ArchHacker",
+            "purple": "#BD93F9",
+            "red": "#FF5555",
+            "selectionBackground": "#FFFFFF",
+            "white": "#E6E6E6",
+            "yellow": "#F1FA8C"
+        }
+    ],
+    "themes": []
+}
