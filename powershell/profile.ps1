@@ -37,10 +37,10 @@ function w {
 
 function prompt {
     $user = $env:USERNAME
-    $path = Get-Location
+    $path = (Get-Location).Path.Replace($HOME, "~")
 
     Write-Host "$user@arch " -NoNewline -ForegroundColor Green
-    Write-Host "$path" -NoNewline -ForegroundColor Cyan
+    Write-Host $path -NoNewline -ForegroundColor Cyan
     return "`n$ "
 }
 
